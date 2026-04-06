@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
               <div className="absolute inset-0 w-8 h-8 md:w-9 md:h-9 gradient-bg rounded-xl rotate-45 blur-md opacity-20 group-hover:opacity-60 transition-opacity duration-700"></div>
             </div>
             <span className="text-xl md:text-2xl font-black font-heading tracking-tighter text-white group-hover:text-blue-400 transition-colors">
-              NEXUS
+              NEXORA
             </span>
           </Link>
 
