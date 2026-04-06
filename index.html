@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexus Creative | I Design, Build & Grow Digital Brands</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --blue-vibrant: #2563eb;
+        --cyan-vibrant: #06b6d4;
+        --indigo-vibrant: #4f46e5;
+        --bg-dark: #050505;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: var(--bg-dark);
+        color: #f8fafc;
+        overflow-x: hidden;
+      }
+      h1, h2, h3, h4, .font-heading {
+        font-family: 'Outfit', sans-serif;
+      }
+      .glass {
+        background: rgba(255, 255, 255, 0.015);
+        backdrop-filter: blur(14px);
+        border: 1px solid rgba(255, 255, 255, 0.04);
+      }
+      .glass-hover:hover {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(59, 130, 246, 0.4);
+        box-shadow: 0 0 25px rgba(59, 130, 246, 0.1);
+      }
+      .gradient-text {
+        background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #4f46e5 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .gradient-bg {
+        background: linear-gradient(135deg, #3b82f6 0%, #2563eb 50%, #4f46e5 100%);
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .animate-fadeInUp {
+        animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      }
+
+      .delay-100 { animation-delay: 100ms; }
+      .delay-200 { animation-delay: 200ms; }
+      .delay-300 { animation-delay: 300ms; }
+      .delay-400 { animation-delay: 400ms; }
+      .delay-600 { animation-delay: 600ms; }
+
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: var(--bg-dark);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #1a1a1a;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #3b82f6;
+      }
+      input:focus, textarea:focus {
+        outline: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
