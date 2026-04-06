@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
     <footer className="bg-neutral-950 border-t border-neutral-900 pt-20 pb-12">
       <div className="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
         <div className="col-span-1 md:col-span-2">
-          <Link to="/" className="text-3xl font-bold font-heading tracking-tighter mb-6 block">NEXUS</Link>
+          <Link to="/" className="text-3xl font-bold font-heading tracking-tighter mb-6 block">NEXORA</Link>
           <p className="text-neutral-400 text-lg max-w-md mb-8">
             Designing and building high-performance digital brands for the next generation of startups. Led by Pinesh Patel.
           </p>
