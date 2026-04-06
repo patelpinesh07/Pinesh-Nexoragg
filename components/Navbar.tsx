@@ -111,7 +111,7 @@ const Navbar: React.FC = () => {
       >
         <div className="flex flex-col h-full">
           <div className="flex justify-between items-center p-8">
-            <span className="text-2xl font-black font-heading tracking-tighter text-white">NEXUS</span>
+            <span className="text-2xl font-black font-heading tracking-tighter text-white">NEXORA</span>
             <button 
               className="w-12 h-12 flex items-center justify-center rounded-full glass border border-white/10 text-white" 
               onClick={closeMenu}
